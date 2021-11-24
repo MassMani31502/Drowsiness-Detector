@@ -37,7 +37,7 @@ function successCallback() {
   // Add code after API is ready.
 }
 
-function errorCallback(errorCode) {
+function errorCallback(_errorCode) {
   // Add code to handle the error
   alert("Cannot work without camera. Check if the camera is attached.");
 }
