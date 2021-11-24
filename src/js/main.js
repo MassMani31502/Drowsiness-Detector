@@ -50,7 +50,7 @@ function nextFrame() {
     body.style.background = "#f00";
   } else {
     stop_alarm();
-    body.style.background = "#fff";
+    body.style.background = "#f4bfc7";
   }
 
   if (JEEFACETRANSFERAPI.is_detected()) {
