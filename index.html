@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Don't Drive Drowsy</title>
+    <title>Drowsiness Detection</title>
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/icon" />
     <link rel="icon" href="favicon.ico" type="image/icon" />
@@ -32,7 +32,9 @@
     </div>
 
     <!--     Detection Canvas -->
-    <canvas id="canvas" class="canvas" width="200" height="100"></canvas>
+    <div class="container">
+    <canvas id="canvas"  class="canvas" width="200" height="100"></canvas>
+    </div>
     <!-- Alarm audio -->
     <!-- <audio src="assets/sounds/alarm.wav" id="alarm" preload="auto"></audio> -->
     <div id="message">
@@ -41,7 +43,7 @@
     <footer>
       <div>
         <a href="#">
-          <img src="logo.png" height="80"
+          <img src="logo.png" position="absolute" height="80"
         /></a>
       </div>
       <div>
